@@ -7,12 +7,17 @@
 
     <style>
         .container{
-            border:5px solid darkmagenta;
-            display: flex;
+            background-color:red; 
+            border:5px solid #8b008b;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style-type:none;
         }
 
         .items{
             color:white;
+            background-color:red; 
             font-size: 100px;
             text-align: center;
             text-shadow:4px 4px 0 rgba(0,0,0,0.1);
@@ -20,19 +25,19 @@
         }
 
         #item-1{
-            background:#1abc9c;
+            border:5px solid #8b008b;  
         }
 
         #item-2{
-            background:#e67e22;
+            border:5px solid #8b008b;
         }
 
         #item-3{
-            background:#e74c3c;
+            border:5px solid #8b008b;
         }
 
         #item-4{
-            background:#2ecc71;
+            border:5px solid #8b008b;
         }
 
       
@@ -41,10 +46,10 @@
 </head>
 <body>
     <div class="container">
-        <div id="item-1" class="items">Blok 1</div>
-        <div id="item-2" class="items">Blok 2</div>
-        <div id="item-3" class="items">Blok 3</div>
-        <div id="item-4" class="items">Blok 4</div>
+        <div id="item-1" class="items"><a href="#">Home</a></div>
+        <div id="item-2" class="items"><a href="#">Over mij</a></div>
+        <div id="item-3" class="items"><a href="#">Vaardigheden</a></div>
+        <div id="item-4" class="items"><a href="#">Hobby's</a></div>
     </div>
 </body>
 </html>
