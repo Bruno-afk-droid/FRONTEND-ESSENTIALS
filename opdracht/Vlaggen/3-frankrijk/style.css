@@ -13,20 +13,23 @@
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 800px;
-    height: 250px;
-    background-color: white;
+    width: 250px;
+    height: 400px;
+    background-color: blue;
 }
 
 #middenstuck{
-    width: 800px;
-    height: 250px;
+    width: 250px;
+    height: 400px;
     background-color: white;
 }
 
 #onderkant{
-    width: 800px;
-    height: 250px;
+    width: 250px;
+    height: 400px;
     background-color: red;
 }
 
+div{
+    display: inline-block;
+}

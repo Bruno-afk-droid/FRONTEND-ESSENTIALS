@@ -14,19 +14,25 @@
 
 #bovenkant{
     width: 800px;
-    height: 250px;
-    background-color: white;
+    height: 125px;
+    background-color: lightblue;
 }
 
-#middenstuck{
+#wit{
     width: 800px;
-    height: 250px;
-    background-color: white;
+    height: 10px;
+    background-color: white;   
+}
+
+#middenstuk{
+    width: 800px;
+    height: 125px;
+    background-color: black;   
 }
 
 #onderkant{
     width: 800px;
-    height: 250px;
-    background-color: red;
+    height: 125px;
+    background-color: lightblue;
 }
 
