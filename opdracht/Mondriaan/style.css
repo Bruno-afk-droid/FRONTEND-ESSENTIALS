@@ -90,7 +90,7 @@ div{
 
     #rechts-rij-een-links{
         height: 100%;
-        width: 60%;
+        width: 60%
     }
 
     #rechts-rij-een-rechts{
@@ -104,11 +104,43 @@ div{
     width: 100%;
 }
 
+    #rechts-rij-twee-links{
+        height: 100%;
+        width: 80%
+    }
+
+    #rechts-rij-twee-rechts{
+        height: 100%;
+        width: 20%;
+    }
+
+
+    
 /* Rechtskant derde rij */
 #rechts-rij-drie{
     height: 22%;
     width: 100%;
 }
+
+    #rechts-rij-drie-links1{
+        height: 100%;
+        width: 10%
+    }
+
+    #rechts-rij-drie-links2{
+        height: 100%;
+        width:  40%
+    }
+
+    #rechts-rij-drie-rechts1{
+        height: 100%;
+        width: 30%;
+    }
+
+    #rechts-rij-drie-rechts2{
+        height: 100%;
+        width: 20%;
+    }
 
 /* Rechtskant vierde rij */
 #rechts-rij-vier{

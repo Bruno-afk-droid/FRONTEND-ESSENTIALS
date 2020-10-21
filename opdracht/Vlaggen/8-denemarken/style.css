@@ -1,0 +1,55 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+div{
+    display: inline-block;
+}
+
+#container{
+    width: 900px;
+    height: 800px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#boven{
+    width:  100%;
+    height: 40%;
+    display: inline-block;
+}
+
+#midden{
+    width:  100%;
+    height: 10%;
+    background-color: white;
+    display: inline-block;
+}
+
+#onder{
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+}
+
+#bovenL{
+    width:  30%;
+    height: 100%;
+    background-color: red;
+}
+
+#bovenM{
+    width: 5%;
+    height: 100%;
+    background-color: white;
+}
+
+#bovenR{
+    width: 65%;
+    height: 100%;
+    background-color: red;
+}
+
