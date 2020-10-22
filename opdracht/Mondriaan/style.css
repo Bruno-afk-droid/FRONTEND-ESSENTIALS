@@ -13,51 +13,7 @@ div{
     border: 1px solid black;
 }
 
-/* CSS class voor achtergrond die niet zichtbaar is voor het eindresultaat */
-.bg-temp{
-    background-image: repeating-linear-gradient(-45deg, grey,white);
-}
 
-.horizontaal{
-    display: inline-block;
-}
-
-/* CSS classes die de borders regelen */
-.border-boven{
-    border-top: 15px solid black;
-}
-
-.border-links{
-    border-left: 15px solid black;
-}
-
-.border-rechts{
-    border-right: 15px solid black;
-}
-
-.border-beneden{
-    border-bottom: 15px solid black;
-}
-
-/* CSS Classes die de achtergrond kleur regelen */
-.bg-geel{
-    background-color: yellow;
-}
-
-.bg-blauw{
-    background-color: cornflowerblue;
-}
-
-.bg-rood{
-    background-color: red;
-}
-
-.bg-wit{
-    background-color: white;
-}
-
-
-/* Linkerkant */
 #links{
     width: 20%;
     height: 100%;
@@ -106,7 +62,7 @@ div{
 
     #rechts-rij-twee-links{
         height: 100%;
-        width: 80%
+        width: 80%;
     }
 
     #rechts-rij-twee-rechts{
@@ -124,12 +80,12 @@ div{
 
     #rechts-rij-drie-links1{
         height: 100%;
-        width: 10%
+        width: 10%;
     }
 
     #rechts-rij-drie-links2{
         height: 100%;
-        width:  40%
+        width:  40%;
     }
 
     #rechts-rij-drie-rechts1{
@@ -147,6 +103,52 @@ div{
     height: 31%;
     width: 100%;
 }
+
+/* CSS class voor achtergrond die niet zichtbaar is voor het eindresultaat */
+.bg-temp{
+    background-image: repeating-linear-gradient(-45deg, grey,white);
+}
+
+.horizontaal{
+    display: inline-block;
+}
+
+/* CSS classes die de borders regelen */
+.border-boven{
+    border-top: 15px solid black;
+}
+
+.border-links{
+    border-left: 15px solid black;
+}
+
+.border-rechts{
+    border-right: 15px solid black;
+}
+
+.border-beneden{
+    border-bottom: 15px solid black;
+}
+
+/* CSS Classes die de achtergrond kleur regelen */
+.bg-geel{
+    background-color: yellow;
+}
+
+.bg-blauw{
+    background-color: cornflowerblue;
+}
+
+.bg-rood{
+    background-color: red;
+}
+
+.bg-wit{
+    background-color: white;
+}
+
+
+/* Linkerkant */
 
 
 
